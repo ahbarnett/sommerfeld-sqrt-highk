@@ -99,7 +99,7 @@ This explains why a vast oversampling is needed.
 
 We see that a *global* transformation can be made which stretches those
 packed oscillations out: let $\lambda = \kappa \cos t$, hence
-$d\lambda = -\kappa \sin t \; dt$ will be used to change the weights.
+$d\lambda = -\kappa \sin t dt$ will be used to change the weights.
 By a happy coincidence this
 also handles the 1/sqrt type multiplicative singularity, because
 the Jacobean is $\kappa \sin t = \sqrt{\kappa^2-\lambda^2}$.
