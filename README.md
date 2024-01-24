@@ -12,7 +12,7 @@ Let $\kappa$ be the overall wavenumber, which is large.
 A paradigm integral is
 
 $$
-I = \int_{-\kappa}^\kappa \frac{e^{ix \lambda + iy\sqrt{\kappa^2-\lambda^2}}
+I = \int_{-\kappa}^\kappa \frac{e^{ix \lambda} e^{iy\sqrt{\kappa^2-\lambda^2}}}
 {\sqrt{\kappa^2-\lambda^2}} d\lambda
 $$
 
