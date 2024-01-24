@@ -99,7 +99,7 @@ This explains why a vast oversampling is needed.
 
 We see that a *global* transformation can be made which stretches those
 packed oscillations out: let $\lambda = \kappa \cos t$, hence
-$d\lambda = -\kappa \sin t \, dt$ will be used to change the weights.
+$d\lambda = -\kappa \sin t \; dt$ will be used to change the weights.
 By a happy coincidence this
 also handles the 1/sqrt type multiplicative singularity, because
 the Jacobean is $\kappa \sin t = \sqrt{\kappa^2-\lambda^2}$.
@@ -127,9 +127,9 @@ end
                       1800       -0.0119841589370715
                       2100       -0.0119841589324932
 ```
-We get 11 digits by around $N=2000$.
+We get 11 digits by $N\approx2000$, of 5 points per wavelength.
 Since the cos transformation has stretched the central part by a
-factor $\pi/2$, we would expect this factor more nodes by
+factor $\pi/2$, we would expect this factor more nodes, by
 Nyquist arguments. However, the order increase from 16 to 32 somewhat
 compensates.
 One sees that round-off error limits accuracy to about 11 digits.
