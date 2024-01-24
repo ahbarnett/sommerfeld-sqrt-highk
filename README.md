@@ -127,7 +127,7 @@ end
                       1800       -0.0119841589370715
                       2100       -0.0119841589324932
 ```
-We get 11 digits by $N\approx2000$, of 5 points per wavelength.
+We get 11 digits by $N\approx2000$, that is, 5 points per wavelength.
 Since the cos transformation has stretched the central part by a
 factor $\pi/2$, we would expect this factor more nodes, by
 Nyquist arguments. However, the order increase from 16 to 32 somewhat
